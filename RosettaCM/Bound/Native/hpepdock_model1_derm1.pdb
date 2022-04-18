@@ -1,0 +1,67 @@
+REMARK Number:  1
+REMARK Cluster:  1  1
+REMARK Cluster:  1  1
+REMARK Ligand Name   :  peptide_models.pdb
+REMARK ITScore       :  -250.987
+REMARK RMSD          :    57.781
+MODEL    1
+ATOM      1  N   TYR B   1     -32.034  50.661 -33.888
+ATOM      2  CA  TYR B   1     -32.283  50.273 -32.497
+ATOM      3  C   TYR B   1     -31.247  49.316 -31.913
+ATOM      4  O   TYR B   1     -30.927  48.283 -32.511
+ATOM      5  CB  TYR B   1     -33.681  49.674 -32.359
+ATOM      6  CG  TYR B   1     -34.018  48.651 -33.411
+ATOM      7  CD1 TYR B   1     -33.460  47.377 -33.374
+ATOM      8  CD2 TYR B   1     -34.912  48.954 -34.439
+ATOM      9  CE1 TYR B   1     -33.790  46.417 -34.337
+ATOM     10  CE2 TYR B   1     -35.252  48.012 -35.406
+ATOM     11  CZ  TYR B   1     -34.692  46.742 -35.351
+ATOM     12  OH  TYR B   1     -35.044  45.788 -36.293
+ATOM     13  N   ALA B   2     -30.728  49.661 -30.736
+ATOM     14  CA  ALA B   2     -29.720  48.856 -30.047
+ATOM     15  C   ALA B   2     -30.305  48.153 -28.816
+ATOM     16  O   ALA B   2     -30.486  48.782 -27.776
+ATOM     17  CB  ALA B   2     -28.546  49.747 -29.625
+ATOM     18  N   PHE B   3     -30.568  46.871 -28.970
+ATOM     19  CA  PHE B   3     -31.058  46.029 -27.888
+ATOM     20  C   PHE B   3     -29.771  45.478 -27.273
+ATOM     21  O   PHE B   3     -28.875  45.097 -28.010
+ATOM     22  CB  PHE B   3     -31.928  44.892 -28.428
+ATOM     23  CG  PHE B   3     -32.365  43.920 -27.377
+ATOM     24  CD1 PHE B   3     -33.147  44.347 -26.327
+ATOM     25  CD2 PHE B   3     -31.989  42.588 -27.426
+ATOM     26  CE1 PHE B   3     -33.565  43.488 -25.362
+ATOM     27  CE2 PHE B   3     -32.392  41.718 -26.444
+ATOM     28  CZ  PHE B   3     -33.184  42.174 -25.402
+ATOM     29  N   GLY B   4     -29.680  45.485 -25.932
+ATOM     30  CA  GLY B   4     -28.475  45.013 -25.251
+ATOM     31  C   GLY B   4     -28.429  43.520 -24.968
+ATOM     32  O   GLY B   4     -29.361  42.764 -25.270
+ATOM     33  N   TYR B   5     -27.294  43.051 -24.355
+ATOM     34  CA  TYR B   5     -27.048  41.632 -24.006
+ATOM     35  C   TYR B   5     -27.551  41.372 -22.626
+ATOM     36  O   TYR B   5     -27.824  40.206 -22.252
+ATOM     37  CB  TYR B   5     -25.550  41.305 -23.939
+ATOM     38  CG  TYR B   5     -25.095  39.844 -23.913
+ATOM     39  CD1 TYR B   5     -24.077  39.495 -23.047
+ATOM     40  CD2 TYR B   5     -25.584  38.803 -24.711
+ATOM     41  CE1 TYR B   5     -23.574  38.192 -22.967
+ATOM     42  CE2 TYR B   5     -25.084  37.481 -24.623
+ATOM     43  CZ  TYR B   5     -24.040  37.144 -23.747
+ATOM     44  OH  TYR B   5     -23.509  35.846 -23.621
+ATOM     45  N   PRO B   6     -27.804  42.435 -21.776
+ATOM     46  CA  PRO B   6     -27.607  42.237 -20.321
+ATOM     47  C   PRO B   6     -28.820  41.612 -19.643
+ATOM     48  O   PRO B   6     -29.482  40.714 -20.203
+ATOM     49  CB  PRO B   6     -27.393  43.672 -19.797
+ATOM     50  CG  PRO B   6     -28.315  44.510 -20.690
+ATOM     51  CD  PRO B   6     -28.360  43.782 -22.058
+ATOM     52  N   SER B   7     -29.109  42.094 -18.448
+ATOM     53  CA  SER B   7     -30.181  41.526 -17.635
+ATOM     54  C   SER B   7     -31.368  42.393 -17.220
+ATOM     55  O   SER B   7     -32.166  41.961 -16.386
+ATOM     56  CB  SER B   7     -29.549  41.001 -16.367
+ATOM     57  OG  SER B   7     -28.971  42.096 -15.676
+ATOM     58  OXT SER B   7     -31.507  43.509 -17.725
+TER
+ENDMDL
