@@ -3,7 +3,7 @@
 -ex1                           # extra rotamers for chi-1 angles utilized during side-chain packing  
 -ex2aro                        # extra rotamers for aromatic chi-2 angles utilized during side-chain packing
 -use_input_sc                  # add the starting structure's rotamers to the rotamer library 
-#-unboundrot input/unbound.pdb  # add position-sepcific rotamers to the rotamer library (most useful for including rotamers of unbound receptor if available)
+-unboundrot S_0001_0-38truncated.pdb  # add position-sepcific rotamers to the rotamer library (most useful for including rotamers of unbound receptor if available)
 -flexpep_prepack               # flag for running FlexPepDock prepack
 -nstruct 1                     # create one pre-packed output structure - this is the standard in production runs too
 -scorefile ppk.score.sc        # name of the scorefile
@@ -13,3 +13,4 @@
 -ignore_unrecognized_res
 -ignore_zero_occupancy false
 -load_PDB_components false
+-overwrite
