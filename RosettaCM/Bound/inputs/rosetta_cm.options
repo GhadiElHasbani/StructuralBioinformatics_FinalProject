@@ -1,0 +1,41 @@
+# i/o
+#-in:fix_disulf dorh_disulfide.txt
+-cst_fa_file constraints.cst
+-cst_fa_weight 1000
+-in:file:fasta dorh_full.fasta
+-parser:protocol rosetta_cm.xml
+-in:file:fullatom
+-in:file:native docked_renumbered.pdb
+-ignore_zero_occupancy false
+
+# output styles
+-out:pdb
+-out:file:scorefile dorh_scores.out
+-nstruct 1
+
+# membrane options
+-in:file:spanfile dorh.span
+-membrane:no_interpolate_Mpair
+-membrane:Menv_penalties
+-rg_reweight .1
+#restore to talaria scoring function system (for membrane protein set of scoring functions)
+-restore_talaris_behavior
+
+# relax options
+-relax:minimize_bond_angles
+-relax:minimize_bond_lengths
+-relax:jump_move true
+-default_max_cycles 200
+-relax:min_type lbfgs_armijo_nonmonotone
+-score:weights stage3_rlx_membrane.wts
+-use_bicubic_interpolation
+-hybridize:stage1_probability 1.0
+-sog_upper_bound 15
+#-relax:constrain_to_starting_coords
+ 
+# reduce memory footprint
+-chemical:exclude_patches LowerDNA  UpperDNA Cterm_amidation SpecialRotamer VirtualBB ShoveBB VirtualDNAPhosphate VirtualNTerm CTermConnect sc_orbitals pro_hydroxylated_case1 pro_hydroxylated_case2 ser_phosphorylated thr_phosphorylated  tyr_phosphorylated tyr_sulfated lys_dimethylated lys_monomethylated  lys_trimethylated lys_acetylated glu_carboxylated cys_acetylated tyr_diiodinated N_acetylated C_methylamidated MethylatedProteinCterm
+
+-linmem_ig 10
+
+#-run:reinitialize_mover_for_each_job
