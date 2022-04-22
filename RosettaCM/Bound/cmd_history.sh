@@ -41,3 +41,7 @@ cd threaded_pdbs
 cd ../inputs
 ~/Desktop/rosetta/main/source/bin/rosetta_scripts.static.macosclangrelease @ rosetta_cm.options > rosetta_cm.log &
 history
+
+# From Results_Analysis/Clustering
+cd ../Results_Analysis/Clustering
+tar -cvzf models.tar.gz *.pdb
