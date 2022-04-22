@@ -1,4 +1,5 @@
-cd ~/Desktop/RosettaCM\ delta\ opioid\ trial/
+cd ~/StructuralBioinformatics_FinalProject/RosettaCM
+cd Unbound
 
 # From Templates/ dir
 cd Templates
@@ -10,13 +11,18 @@ python ~/Desktop/rosetta/main/tools/protein_tools/scripts/clean_pdb.py 6pt2.pdb 
 python ~/Desktop/rosetta/main/tools/protein_tools/scripts/clean_pdb.py 4rwd.pdb A
 python ~/Desktop/rosetta/main/tools/protein_tools/scripts/clean_pdb.py 6pt3.pdb A
 python ~/Desktop/rosetta/main/tools/protein_tools/scripts/clean_pdb.py AF-P41143-F1-model_v2.pdb A
+
+# From Constraints/ dir
 # Octopus was down, used TopCons2 (which proved to be more accurate --> 7 vs 5 TMHs)
-~/Desktop/rosetta/main/source/src/apps/public/membrane_abinitio/octopus2span.pl ../dorh.octopus > dorh.span
+cd ../Constraints
+~/Desktop/rosetta/main/source/src/apps/public/membrane_abinitio/octopus2span.pl dorh.octopus > dorh.span
 
 # From main dir
+cd ..
 python aln2grishin.py --file Alignments/dorh_alignment_all.txt
 
 # From threaded_pdbs/ dir
+cd threaded_pdbs
 ../dorh_full.fasta -in:file:alignment dorh_4n6h_A.grishin -in:file:template_pdb ../Templates/4n6h_A.pdb
 ~/Desktop/rosetta/main/source/bin/partial_thread.static.macosclangrelease -in:file:fasta ../dorh_full.fasta -in:file:alignment ../Alignments/dorh_4rwa_A.grishin -in:file:template_pdb ../Templates/4rwa_A.pdb
 ~/Desktop/rosetta/main/source/bin/partial_thread.static.macosclangrelease -in:file:fasta ../dorh_full.fasta -in:file:alignment ../Alignments/dorh_4rwd_A.grishin -in:file:template_pdb ../Templates/4rwd_A.pdb
@@ -25,5 +31,6 @@ python aln2grishin.py --file Alignments/dorh_alignment_all.txt
 ~/Desktop/rosetta/main/source/bin/partial_thread.static.macosclangrelease -in:file:fasta ../dorh_full.fasta -in:file:alignment ../Alignments/dorh_AF-P41143-F1-model_v2_A.grishin -in:file:template_pdb ../Templates/AF-P41143-F1-model_v2_A.pdb
 
 # From inputs/ dir
+cd ../inputs
 ~/Desktop/rosetta/main/source/bin/rosetta_scripts.static.macosclangrelease @ rosetta_cm.options > rosetta_cm.log &
 history
