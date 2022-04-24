@@ -104,7 +104,6 @@ H.M. Berman, J. Westbrook, Z. Feng, G. Gilliland, T.N. Bhat, H. Weissig, I.N. Sh
 (2000) The Protein Data Bank Nucleic Acids Research, 28: 235-242.
 
 H.M. Berman, K. Henrick, H. Nakamura (2003) Announcing the worldwide Protein Data Bank Nature Structural Biology 10 (12): 980. www.wwpdb.org
-Image from the RCSB PDB (rcsb.org) of PDB ID 1BNA (H.R. Drew, R.M. Wing, T. Takano, C. Broka, S. Tanaka, K. Itakura, R.E.Dickerson) (1981) Structure of a B-DNA dodecamer: conformation and dynamics Proc.Natl.Acad.Sci.USA 78: 2179-2183).
 
 Jumper, J., Evans, R., Pritzel, A., Green, T., Figurnov, M., Ronneberger, O., ... & Hassabis, D. (2021). Highly accurate protein structure prediction with AlphaFold. Nature, 596(7873), 583-589. https://doi.org/10.1038/s41586-021-03819-2
 
