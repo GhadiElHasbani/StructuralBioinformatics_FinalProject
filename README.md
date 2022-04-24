@@ -5,7 +5,7 @@
 # Ghadi, GEH, El Hasbani
 ### Computer Science and Mathematics Department, Lebanese American University, Byblos, ghadi.elhasbani@lau.edu
 # Rawan, RT, Tohme
-### Computer Science and Mathematics Department, Lebanese American University, rawan.tohme@lau.edu
+### Computer Science and Mathematics Department, Lebanese American University, Byblos, rawan.tohme@lau.edu
 
 ## ABSTRACT
 With the increase in availability of experimentally determined transmembrane protein structures, especially ligand-bound G-Protein Couped Receptors (GPCRs), there is an increased need for integrative models that attempt to combine existing experimental and theoretical evidence into a comprehensive, ligand-specific model. This is especially considering the difficulty to dock peptides into loop-filled binding sites of full sequence models. Using RosettaCM, a first draft of an integrative model of the full delta-opioid 7-pass transmembrane GPCR (DOR) in its unbound state is presented. A previously described iterative procedure combining RosettaCM (a second iteration) and FlexPepDock (before and after RosettaCM) was used to then rebuild the binding site in the presence of a peptide (dermorphin, n=7) previously shown to have analgesic properties and decreased addictive potential. The resulting models are then assessed for quality, compared, and aligned, and the final peptide-bound conformations are clustered. In conclusion, the first draft modeling process was successful in generating reliable theoretical, integrative models specific to dermorphin, although future improvements are needed.
@@ -63,49 +63,89 @@ As with the unbound structures, the 10 refined bound structures generated from t
 
 ## REFERENCES
 Allouche, S., Noble, F., & Marie, N. (2014). Opioid receptor desensitization: mechanisms and its link to tolerance. Frontiers in pharmacology, 5, 280.
+
 Apweiler, R., Bairoch, A., Wu, C. H., Barker, W. C., Boeckmann, B., Ferro, S., ... & Yeh, L. S. L. (2004). UniProt: the universal protein knowledgebase. Nucleic acids research, 32(suppl_1), D115-D119.
+
 Badaczewska-Dawid, A. E., Kmiecik, S., & Koliński, M. (2021). Docking of peptides to GPCRs using a combination of CABS-dock with FlexPepDock refinement. Briefings in bioinformatics, 22(3), bbaa109.
+
 Bender, B. J., Vortmeier, G., Ernicke, S., Bosse, M., Kaiser, A., Els-Heindl, S., ... & Huster, D. (2019). Structural model of ghrelin bound to its G protein-coupled receptor. Structure, 27(3), 537-544.
+
 Bhattacharya, A., Tejero, R., & Montelione, G. T. (2007). Evaluating protein structures determined by structural genomics consortia. Proteins: Structure, Function, and Bioinformatics, 66(4), 778-795.
+
 Broccardo, M., Erspamer, V., Falconieri, G., Improta, G., Linari, G., Melchiorri, P., & Montecucchi, P. C. (1981). Pharmacological data on dermorphins, a new class of potent opioid peptides from amphibian skin. British journal of pharmacology, 73(3), 625-631.
+
 Burley, S. K., Kurisu, G., Markley, J. L., Nakamura, H., Velankar, S., Berman, H. M., ... & Trewhella, J. (2017). PDB-Dev: a prototype system for depositing integrative/hybrid structural models. Structure, 25(9), 1317-1318.
+
 Chu Sin Chung, P. C., and Kieffer, B. L. (2013). Delta opioid receptors in brain function and diseases. Pharmacol. Ther. 140, 112–120. doi: 10.1016/j.pharmthera.2013.06.003
+
 Claff, T., Yu, J., Blais, V., Patel, N., Martin, C., Wu, L., ... & Stevens, R. C. (2019). Elucidating the active δ-opioid receptor crystal structure with peptide and small-molecule agonists. Science advances, 5(11), eaax9115.
+
 Das, R., & Baker, D. (2008). Macromolecular modeling with rosetta. Annu. Rev. Biochem., 77, 363-382.
 DeLano, W. L. (2002). PyMOL.
+
 Dong, R., Pan, S., Peng, Z., Zhang, Y., & Yang, J. (2018). mTM-align: a server for fast protein structure database search and multiple protein structure alignment. Nucleic acids research, 46(W1), W380-W386.
+
 Dong, R., Peng, Z., Zhang, Y., & Yang, J. (2018). mTM-align: an algorithm for fast and accurate multiple protein structure alignment. Bioinformatics, 34(10), 1719-1725.
+
 D. Sehnal, S. Bittrich, M. Deshpande, R. Svobodová, K. Berka, V. Bazgier, S. Velankar, S.K. Burley, J. Koča, A.S. Rose (2021) Mol* Viewer: modern web app for 3D visualization and analysis of large biomolecular structures. Nucleic Acids Research. doi: 10.1093/nar/gkab314
+
 Fenalti, G., Giguere, P. M., Katritch, V., Huang, X. P., Thompson, A. A., Cherezov, V., ... & Stevens, R. C. (2014). Molecular control of δ-opioid receptor signalling. Nature, 506(7487), 191-196.
+
 Fenalti, G., Zatsepin, N. A., Betti, C., Giguere, P., Han, G. W., Ishchenko, A., ... & Cherezov, V. (2015). Structural basis for bifunctional peptide recognition at human δ-opioid receptor. Nature structural & molecular biology, 22(3), 265-268.
+
 Gavériaux-Ruff, C., and Kieffer, B. L. (2011). Delta opioid receptor analgesia: recent contributions from pharmacology and molecular approaches. Behav. Pharmacol. 22, 405–414. doi: 10.1097/fbp.0b013e32834a1f2c
+
 Goldenberg, D. L. (2010b). The interface of pain and mood disturbances in the rheumatic diseases. Semin. Arthritis Rheum. 40, 15–31. doi: 10.1016/j.semarthrit.2008.11.005
+
 Greife, A., Felekyan, S., Ma, Q., Gertzen, C. G., Spomer, L., Dimura, M., ... & Seidel, C. A. (2016). Structural assemblies of the di-and oligomeric G-protein coupled receptor TGR5 in live cells: an MFIS-FRET and integrative modelling study. Scientific reports, 6(1), 1-16.
+
 H.M. Berman, J. Westbrook, Z. Feng, G. Gilliland, T.N. Bhat, H. Weissig, I.N. Shindyalov, P.E. Bourne.
+
 (2000) The Protein Data Bank Nucleic Acids Research, 28: 235-242.
+
 H.M. Berman, K. Henrick, H. Nakamura (2003) Announcing the worldwide Protein Data Bank Nature Structural Biology 10 (12): 980. www.wwpdb.org
 Image from the RCSB PDB (rcsb.org) of PDB ID 1BNA (H.R. Drew, R.M. Wing, T. Takano, C. Broka, S. Tanaka, K. Itakura, R.E.Dickerson) (1981) Structure of a B-DNA dodecamer: conformation and dynamics Proc.Natl.Acad.Sci.USA 78: 2179-2183).
+
 Jumper, J., Evans, R., Pritzel, A., Green, T., Figurnov, M., Ronneberger, O., ... & Hassabis, D. (2021). Highly accurate protein structure prediction with AlphaFold. Nature, 596(7873), 583-589. https://doi.org/10.1038/s41586-021-03819-2
+
 Kastin, A. (Ed.). (2013). Handbook of biologically active peptides. Academic press.
+
 Kurcinski, M., Badaczewska‐Dawid, A., Kolinski, M., Kolinski, A., & Kmiecik, S. (2020). Flexible docking of peptides to proteins using CABS‐dock. Protein Science, 29(1), 211-222.
+
 Lazarus, L. H., Wilson, W. E., Guglietta, A., & De Castiglione, R. (1990). Dermorphin interaction with rat brain opioid receptors: involvement of hydrophobic sites in the binding domain. Molecular pharmacology, 37(6), 886-892.
+
 Leelananda, S. P., & Lindert, S. (2017). Iterative molecular dynamics–rosetta membrane protein structure refinement guided by cryo-em densities. Journal of chemical theory and computation, 13(10), 5131-5145.
+
 London, N., Raveh, B., Cohen, E., Fathi, G., & Schueler-Furman, O. (2011). Rosetta FlexPepDock web server—high resolution modeling of peptide–protein interactions. Nucleic acids research, 39(suppl_2), W249-W253.
+
 Patra, M. C., Kumar, K., Pasha, S., & Chopra, M. (2012). Comparative modeling of human kappa opioid receptor and docking analysis with the peptide YFa. Journal of Molecular Graphics and Modelling, 33, 44-51.
+
 Pettersen, E. F., Goddard, T. D., Huang, C. C., Couch, G. S., Greenblatt, D. M., Meng, E. C., & Ferrin, T. E. (2004). UCSF Chimera—a visualization system for exploratory research and analysis. Journal of computational chemistry, 25(13), 1605-1612.
+
 Quirion, B., Bergeron, F., Blais, V., & Gendron, L. (2020). The delta-opioid receptor; a target for the treatment of pain. Frontiers in Molecular Neuroscience, 13, 52.
+
 Raveh, B., London, N., & Schueler‐Furman, O. (2010). Sub‐angstrom modeling of complexes between flexible peptides and globular proteins. Proteins: Structure, Function, and Bioinformatics, 78(9), 2029-2040.
+
 Raveh, B., London, N., Zimmerman, L., & Schueler-Furman, O. (2011). Rosetta FlexPepDock ab-initio: simultaneous folding, docking and refinement of peptides onto their receptors. PloS one, 6(4), e18934.
+
 Rohl, C. A., Strauss, C. E., Misura, K. M., & Baker, D. (2004). Protein structure prediction using Rosetta. In Methods in enzymology (Vol. 383, pp. 66-93). Academic Press.
+
 Sievers, F., & Higgins, D. G. (2014). Clustal omega. Current protocols in bioinformatics, 48(1), 3-13.
+
 Sievers, F., & Higgins, D. G. (2014). Clustal Omega, accurate alignment of very large numbers of sequences. In Multiple sequence alignment methods (pp. 105-116). Humana Press, Totowa, NJ.
+
 Ślusarz, M. J. (2011). Molecular modeling study of the opioid receptor interactions with series of cyclic deltorphin analogues. Journal of Peptide Science, 17(8), 554-564.
+
 Song, Y., DiMaio, F., Wang, R. Y. R., Kim, D., Miles, C., Brunette, T. J., ... & Baker, D. (2013). High-resolution comparative modeling with RosettaCM. Structure, 21(10), 1735-1742.
+
 Tsirigos, K. D., Peters, C., Shu, N., Käll, L., & Elofsson, A. (2015). The TOPCONS web server for consensus prediction of membrane protein topology and signal peptides. Nucleic acids research, 43(W1), W401-W407.
+
 Vats, I. D., Dolt, K. S., Kumar, K., Karar, J., Nath, M., Mohan, A., ... & Pasha, S. (2008). YFa, a chimeric opioid peptide, induces kappa‐specific antinociception with no tolerance development during 6 days of chronic treatment. Journal of neuroscience research, 86(7), 1599-1607.
+
 Viklund, H., & Elofsson, A. (2008). OCTOPUS: improving topology prediction by two-track ANN-based preference scores and an extended topological grammar. Bioinformatics, 24(15), 1662-1668.
+
 Zemla, A., Geisbrecht, B., Smith, J., Lam, M., Kirkpatrick, B., Wagner, M., ... & Zhou, C. E. (2007). STRALCP—structure alignment-based clustering of proteins. Nucleic acids research, 35(22), e150-e150.
+
 Zhou, P., Jin, B., Li, H., & Huang, S. Y. (2018). HPEPDOCK: a web server for blind peptide–protein docking based on a hierarchical algorithm. Nucleic acids research, 46(W1), W443-W450.
+
 Zhou, P., Li, B., Yan, Y., Jin, B., Wang, L., & Huang, S. Y. (2018). Hierarchical flexible peptide docking by conformer generation and ensemble docking of peptides. Journal of Chemical Information and Modeling, 58(6), 1292-1302.
-
-
