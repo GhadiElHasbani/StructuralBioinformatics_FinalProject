@@ -1,4 +1,5 @@
-[ atompairs ]
-SG    129 SG    206   FADE   1.0 3.0  0.5  -50.0 50.0
-CB    129 SG    206   FADE   1.5 4.5  1.0  -50.0 50.0
-SG    129 CB    206   FADE   1.5 4.5  1.0  -50.0 50.0
+AtomPair  OH  1  NE1  180   FADE   1.5 4.5  1.0  -50.0 50.0
+AtomPair  HG  13  NH1  48   FADE   1.5 4.5  1.0  -50.0 50.0
+AtomPair  SG  128  SG  205   FADE   1.0 3.0  0.5  -50.0 50.0
+AtomPair  CB  128  SG  205   FADE   1.5 4.5  1.0  -50.0 50.0
+AtomPair  SG  128  CB  205   FADE   1.5 4.5  1.0  -50.0 50.0

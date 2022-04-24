@@ -1,6 +1,5 @@
-4n6h
-4rwa
-4rwd
-6pt2
-6pt3
+S_0001
+S_0002
+S_0003
+docked_renumbered
 AF-P41143-F1-model_v2
